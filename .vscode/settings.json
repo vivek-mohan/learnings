@@ -1,4 +1,7 @@
 {
     "python.formatting.provider": "black",
-    "c3.rootPackage": "Vehicles"
+    "c3.rootPackage": "Vehicles",
+    "c3.connection.vanityUrl": "http://localhost:8080",
+    "c3.connection.tenantTag": "compressors/prod",
+    "c3.connection.userName": "BA"
 }

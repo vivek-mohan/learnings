@@ -6,7 +6,7 @@
 /** 
  * Enum type to list enum options
  */
-type VehicleMakeOptions {
+enum type VehicleMakeOptions {
     
     ACURA
 

@@ -1,8 +1,6 @@
 {
-    "name": "illustrations",
+    "name": "Vehicles",
     "description": "Illustrations to learn C3 concepts better",
     "author": "vivek.mohan@shell.com",
-    "dependencies": [
-        ""
-    ]
+    "dependencies": []
 }

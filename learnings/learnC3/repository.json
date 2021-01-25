@@ -1,7 +1,7 @@
 {
-    "name": "c3-illustrations",
+    "name": "learnC3",
     "version": "0.0.1",
-    "description": "Shell C3 Illustrations",
+    "description": "Shell C3 learnings",
     "dependencies": {
         "server": "7.12.19.41"
     }
