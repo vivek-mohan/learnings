@@ -1,0 +1,37 @@
+/* 
+ *  Author: Vivek Mohan
+ *  Company: Shell
+*/
+
+/** 
+ * Base type to illustrate C3 runtimes for JS files
+ */
+ entity type Vehicle schema name "VHCL" {
+
+        /* Vehicle identification number, GUID */
+        vin: string 
+
+        /**
+        make of the vehicle
+        */
+        make: string enum VehicleMakeOptions
+
+        /* number of miles run on the vehicle */
+        mileage: double
+
+        /* date in which vehicle is registered */
+        dateOfRegistration: string 
+
+        /* city of registration */
+        placeOfRegistration: string 
+
+        /* Flag to denote accident history */
+        hasAccidentHistory: boolean
+
+        /* function to evaluate quality of drive based on certain parameters */
+        evaluateDriveQuality: function(make: !string, mileage: double, hasAccidentHistory: boolean): string js server
+
+        /* function to predict until when vehicle can be safely operated */
+        predictVehicleOperation: function(make: !string, mileage: double): double py server
+    
+ }
